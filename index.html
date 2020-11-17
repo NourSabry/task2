@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  body {
+      
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  box-sizing:border-box;
+  box-shadow: lavender;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(57, 55, 68, 0.7);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left:20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f0bfacd0;
+  display: block;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-right: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+section{
+    background-color: white;
+    height: 60%;
+    width:30%;
+    margin:auto;
+}
+
+form{
+    top: 0;
+    text-align: center;
+    margin: 10px 40px;
+    padding: 40px;
+    background-color:white;
+    height: 70%;
+    box-shadow: 0px 5px 5px #504d4d;
+    
+
+}
+
+
+input{
+    width:200px;
+    padding-top: 30px;
+    display:block;
+    padding:7px;
+    margin:9px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 8px 5px 5px #d1caca;
+}
+
+    h1{
+  font-size: 30px;
+  color: rgb(27, 32, 59);
+  font-weight: bold;
+}
+button{
+    width:217px;
+  background-color: rgb(2, 8, 48);
+  border-radius: 15px;
+  display:block;
+  padding:7px;
+  margin:9px;
+  text-align: center;
+  box-shadow: 8px 5px 5px #d1caca;
+  color: white;
+
+  
+
+}
+
+a{
+  color:rgb(27, 32, 59);
+
+}
+
+img {
+    margin-left: 20px;
+    margin-bottom: 2cm;
+}
+</style>
+</head>
+<body>
+<header>
+    <img src="logo3.png" >
+</header>
+    <div class="sidenav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+<section>
+    <form>
+        <h1> Space</h1>
+        <h3>login</h3>
+        <input name="name" value="Enter your email or phone">
+        <input name="passw" value="Enter your password">
+        <button type="submit" form="form" value="login" color="white">login</button>
+         <p>
+         <a href="https://www.facebook.com/help/213395615347144">forgot password</a> or <a href="https://www.facebook.com">sign up now</a>
+
+         </p>
+
+    </form>
+</section>
+</body>
+</html>
